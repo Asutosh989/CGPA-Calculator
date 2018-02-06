@@ -26,6 +26,7 @@ export default class Calculator extends React.Component {
   render() {
     return (
       <div>
+        {this.props.match.params.branch}
       {/*
 
 
