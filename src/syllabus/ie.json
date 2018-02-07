@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Semester 5",
+        "id": 5,
+        "subjects": [
+            {
+                "name": "Advanced Computer Architecture",
+                "code": "PC001",
+                "credits": 4
+            },
+            {
+                "name": "Internet of Things",
+                "code": "PC002",
+                "credits": 4
+            },
+            {
+                "name": "Cloud Computing",
+                "code": "PC003",
+                "credits": 3
+            },
+            {
+                "name": "Advanced Lab",
+                "code": "PC004",
+                "credits": 2
+            },
+            {
+                "name": "Computer Graphics",
+                "code": "PC005",
+                "credits": 4
+            },
+            {
+                "name": "Operating Systems",
+                "code": "PC006",
+                "credits": 5
+            }
+        ]
+    }
+
+]
