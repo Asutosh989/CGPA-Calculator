@@ -1,8 +1,12 @@
 import React from 'react';
 import { Button, Navbar, NavbarBrand, NavLink, Nav, NavItem, FormGroup, Form, Label, Input } from 'reactstrap';
-import { withRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Route, withRouter } from 'react-router-dom';
 
 import './syllabus.css';
+import About from './About.js';
+// import Calculator from './Calculator';
+
+
 
 class Syllabus extends React.Component {
   constructor(props) {
@@ -27,6 +31,7 @@ class Syllabus extends React.Component {
   render() {
     return (
       <div className="Syllabus">
+        
         <h1> CGPA calculator </h1>
         <Form onSubmit={this.handleFormSubmit}>
           <FormGroup>
@@ -41,6 +46,7 @@ class Syllabus extends React.Component {
           </FormGroup>
           <Button type="submit">Submit</Button>
         </Form>
+
       </div>
     );
   }
