@@ -1,14 +1,11 @@
 import React from 'react';
-import { Button, Navbar, NavbarBrand, NavLink, Nav, NavItem, FormGroup, Form, Label, Input } from 'reactstrap';
-import { BrowserRouter as Router, Route, withRouter } from 'react-router-dom';
+import { Button, FormGroup, Form, Label, Input, Container, Card, CardBody } from 'reactstrap';
 
-import './syllabus.css';
-import About from './About.js';
-// import Calculator from './Calculator';
+import './home.css';
 
 
 
-class Syllabus extends React.Component {
+class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -33,6 +30,9 @@ class Syllabus extends React.Component {
       <div className="Syllabus">
         
         <h1> CGPA calculator </h1>
+        <Container className="d-flex align-item-center justify-content-center">
+        <Card className="branch">
+        <CardBody>
         <Form onSubmit={this.handleFormSubmit}>
           <FormGroup>
             <Label for="exampleSelect">Select</Label>
@@ -42,13 +42,17 @@ class Syllabus extends React.Component {
               <option value="me">MECH</option>
               <option value="ce">CIVIL</option>
               <option value="it">IT</option>
+              <option value="tex">TEXTILE</option>
+              <option value="ee">ELECTRICAL</option>
             </Input>
           </FormGroup>
-          <Button type="submit">Submit</Button>
+          <Button type="submit" color="success">Submit</Button>
         </Form>
-
+        </CardBody>
+        </Card>
+        </Container>
       </div>
     );
   }
 }
-export default Syllabus;
+export default Home;

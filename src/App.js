@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Button, Navbar, NavbarBrand, Nav, NavItem, FormGroup, Form, Label, Input } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavItem } from 'reactstrap';
 
 import {
   BrowserRouter as Router,
   Route, NavLink
 } from 'react-router-dom';
 // import logo from './logo.svg';
-import Syllabus from './Syllabus.js';
+import Home from './Home.js';
 import Calculator from './Calculator';
 
 import './App.css';
@@ -33,7 +33,7 @@ class App extends Component {
       </Navbar>
 
           {/* route passes history location */}
-          <Route exact path="/" component={Syllabus}/>
+          <Route exact path="/" component={Home}/>
           <Route path="/calculate/:branch" component={Calculator} />
         </div>
       </Router>
