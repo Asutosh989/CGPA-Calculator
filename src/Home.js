@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Button, FormGroup, Form, Label, Input, Container, Card, CardBody } from 'reactstrap';
 
 import './home.css';
@@ -38,12 +39,12 @@ class Home extends React.Component {
             <Label for="exampleSelect">Select</Label>
             <Input type="select" name="select" value={this.state.branch} onChange={this.handleBranchDropdownChange}>
               <option value="cse">CSE</option>
-              <option value="ie">I&amp;E</option>
+              {/* <option value="ie">I&amp;E</option>
               <option value="me">MECH</option>
               <option value="ce">CIVIL</option>
               <option value="it">IT</option>
               <option value="tex">TEXTILE</option>
-              <option value="ee">ELECTRICAL</option>
+              <option value="ee">ELECTRICAL</option> */}
             </Input>
           </FormGroup>
           <Button type="submit" color="success">Submit</Button>
@@ -51,6 +52,7 @@ class Home extends React.Component {
         </CardBody>
         </Card>
         </Container>
+        Check the  <Link to="/about">about</Link> page for more information
       </div>
     );
   }

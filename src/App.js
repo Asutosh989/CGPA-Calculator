@@ -8,6 +8,7 @@ import {
 // import logo from './logo.svg';
 import Home from './Home.js';
 import Calculator from './Calculator';
+import About from './About.js';
 
 import './App.css';
 
@@ -26,14 +27,12 @@ class App extends Component {
             <NavItem>
               <NavLink className="nav-link" to="/about">About</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink className="nav-link" to="/calculate">Calculate</NavLink>
-            </NavItem>
           </Nav>
       </Navbar>
 
           {/* route passes history location */}
           <Route exact path="/" component={Home}/>
+          <Route exact path="/about" component={About}/>
           <Route path="/calculate/:branch" component={Calculator} />
         </div>
       </Router>

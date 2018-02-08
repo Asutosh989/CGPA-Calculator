@@ -2,6 +2,7 @@ import React from 'react';
 import syllabus from './syllabus';
 import { Button, Input, Table, Container, Row, Col, Card, CardBody, CardTitle} from 'reactstrap';
 import { calculateGpa } from './gpa-calculator';
+import 'react-accordion-component';
 
 export default class Calculator extends React.Component {
   constructor(props) {
@@ -77,6 +78,7 @@ export default class Calculator extends React.Component {
                               <option value="F">F</option>
                               <option value="S">S</option>
                               <option value="M">M</option>
+                              <option value="excluded">Exclude</option>
                           </Input></td>
 
                         </tr>
@@ -93,7 +95,7 @@ export default class Calculator extends React.Component {
           </Col>
           <Col md={4}>
             {!this.state.dirty && (
-            <Card style={{position: 'sticky', top: '1em' }}>
+            <Card style={{position: 'sticky', top: '4em' }}>
               <CardTitle>GPA</CardTitle>
               <CardBody>
                 <h2>CGPA {this.state.gpa.toFixed(2)}</h2>

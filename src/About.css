@@ -1,0 +1,9 @@
+h3, .outer {
+    text-align:left;
+    margin-left: 300px;
+}
+
+.inner {
+    text-align:left;
+    margin-left: 10px;
+}
