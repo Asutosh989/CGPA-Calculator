@@ -7,3 +7,15 @@ h3, .outer {
     text-align:left;
     margin-left: 10px;
 }
+
+@media only screen and (max-width: 500px) {
+    h3, .outer {
+        text-align:left;
+        margin-left: 50px;
+    }
+    
+    .inner {
+        text-align:left;
+        margin-left: 10px;
+    }
+}

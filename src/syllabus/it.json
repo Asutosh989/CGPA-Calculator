@@ -4,13 +4,13 @@
 		"id": "1",
 		"subjects": [
 			{
-				"name": "BASICS OF ELECTRONICS",
-				"code": "15BE2101",
+				"name": "BASIC ELECTRICAL ENGINEERING",
+				"code": "15BE2102",
 				"credits": 4
 			},
 			{
-				"name": "MECHANICS",
-				"code": "15BE2104",
+				"name": "THERMODYNAMICS",
+				"code": "15BE2103",
 				"credits": 3
 			},
 			{
@@ -24,8 +24,8 @@
 				"credits": 4
 			},
 			{
-				"name": "PHYSICS",
-				"code": "15BS1102",
+				"name": "CHEMISTRY",
+				"code": "15BS1103",
 				"credits": 4
 			},
 			{
@@ -34,8 +34,8 @@
 				"credits": 3
 			},
 			{
-				"name": "ENGINEERING DRAWING",
-				"code": "15BE7101",
+				"name": "ENGINEERING WORKSHOP",
+				"code": "15BE7102",
 				"credits": 2
 			}
 		]
@@ -45,13 +45,13 @@
 		"id": "2",
 		"subjects": [
 			{
-				"name": "BASIC ELECTRICAL ENGINEERING",
-				"code": "15BE2102",
+				"name": "BASICS OF ELECTRONICS",
+				"code": "15BE2101",
 				"credits": 4
 			},
 			{
-				"name": "THERMODYNAMICS",
-				"code": "15BE2103",
+				"name": "MECHANICS",
+				"code": "15BE2104",
 				"credits": 3
 			},
 			{
@@ -60,8 +60,8 @@
 				"credits": 5
 			},
 			{
-				"name": "CHEMISTRY",
-				"code": "15BS1103",
+				"name": "PHYSICS",
+				"code": "15BS1102",
 				"credits": 4
 			},
 			{
@@ -75,8 +75,8 @@
 				"credits": 3
 			},
 			{
-				"name": "ENGINEERING WORKSHOP",
-				"code": "15BE7102",
+				"name": "ENGINEERING DRAWING",
+				"code": "15BE7101",
 				"credits": 2
 			}
 		]
@@ -86,33 +86,38 @@
 		"id": "3",
 		"subjects": [
 			{
-				"name": "ELECTROMAGNETIC FIELD THEORY",
-				"code": "PEI3I001",
+				"name": "ARTIFICIAL INTELLIGENCE",
+				"code": "PIT3D001",
 				"credits": 4
 			},
 			{
-				"name": "ANALOG ELECTRONIC CIRCUITS",
-				"code": "PEI3I101",
+				"name": "DISCRETE STRUCTURES",
+				"code": "PIT3I001",
 				"credits": 4
 			},
 			{
-				"name": "ELECTRICAL AND ELECTRONICS MEASUREMENT",
-				"code": "PEI3I102",
+				"name": "SWITCHING THEORY & LOGIC DESIGN",
+				"code": "PIT3I101",
 				"credits": 4
 			},
 			{
-				"name": "ENERGY CONVERSION DEVICES",
-				"code": "PEI3I103",
+				"name": "OBJECT ORIENTED PROGRAMMING USING JAVA",
+				"code": "PIT3I102",
 				"credits": 4
 			},
 			{
-				"name": "NETWORK THEORY",
-				"code": "PEI3I104",
+				"name": "SYSTEM PROGRAMMING",
+				"code": "PIT3I103",
 				"credits": 4
 			},
 			{
-				"name": "ENGINEERING ECONOMICS",
-				"code": "PEK3E001",
+				"name": "SOFTWARE ENGINEERING",
+				"code": "PIT3I104",
+				"credits": 4
+			},
+			{
+				"name": "ORGANIZATIONAL BEHAVIOR",
+				"code": "POB3E002",
 				"credits": 3
 			}
 		]
@@ -122,23 +127,28 @@
 		"id": "4",
 		"subjects": [
 			{
-				"name": "COMMUNICATION SYSTEM ENGINEERING",
-				"code": "PEI4I101",
+				"name": "ENGINEERING ECONOMICS",
+				"code": "PEK4E002",
+				"credits": 3
+			},
+			{
+				"name": "COMPUTER ORGANIZATION & ARCHITECTURE",
+				"code": "PIT4I101",
 				"credits": 4
 			},
 			{
-				"name": "CONTROL SYSTEM ENGINEERING",
-				"code": "PEI4I102",
+				"name": "DESIGN & ANALYSIS OF ALGORITHMS",
+				"code": "PIT4I102",
 				"credits": 4
 			},
 			{
-				"name": "DIGITAL ELECTRONICS",
-				"code": "PEI4I103",
+				"name": "DATABASE SYSTEM",
+				"code": "PIT4I103",
 				"credits": 4
 			},
 			{
-				"name": "INSTRUMENT DEVICES & SYSTEM - I",
-				"code": "PEI4I104",
+				"name": "FORMAL LANGUAGE & AUTOMATA THEORY",
+				"code": "PIT4I104",
 				"credits": 4
 			},
 			{
@@ -147,13 +157,8 @@
 				"credits": 3
 			},
 			{
-				"name": "ORGANIZATIONAL BEHAVIOR",
-				"code": "POB4E003",
-				"credits": 3
-			},
-			{
 				"name": "SKILL PROJECT AND HANDS ON",
-				"code": "PEI4I201",
+				"code": "PIT4I201",
 				"credits": 3
 			}
 		]
@@ -163,33 +168,33 @@
 		"id": "5",
 		"subjects": [
 			{
-				"name": "NUMERICAL METHODS",
-				"code": "PEI5H001",
+				"name": "DATA MINING & DATA WAREHOUSING",
+				"code": "PIT5H002",
 				"credits": 4
 			},
 			{
-				"name": "INSTRUMENT DEVICES & SYSTEM - II",
-				"code": "PEI5I101",
+				"name": "OPERATING SYSTEMS",
+				"code": "PIT5I101",
 				"credits": 4
 			},
 			{
-				"name": "MICROPROCESSOR & ITS INTERFACING",
-				"code": "PEI5I102",
+				"name": "ADVANCED JAVA PROGRAMMING",
+				"code": "PIT5I102",
 				"credits": 4
 			},
 			{
-				"name": "DIGITAL SIGNAL PROCESSING",
-				"code": "PEI5I103",
+				"name": "E-COMMERCE & ERP",
+				"code": "PIT5I103",
 				"credits": 4
 			},
 			{
-				"name": "OPTOELECTRONICS DEVICE & INSTRUMENTATION",
-				"code": "PEI5J003",
+				"name": "COMPUTER GRAPHICS",
+				"code": "PIT5J001",
 				"credits": 4
 			},
 			{
-				"name": "ADVANCE LAB - I (SIMULATION LAB)",
-				"code": "PEI5I201",
+				"name": "ADVANCE LAB - I",
+				"code": "PIT5I201",
 				"credits": 4
 			}
 		]

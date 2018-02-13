@@ -86,34 +86,44 @@
 		"id": "3",
 		"subjects": [
 			{
-				"name": "ELECTROMAGNETIC FIELD THEORY",
-				"code": "PEI3I001",
+				"name": "CONCRETE TECHNOLOGY",
+				"code": "PCI3D001",
 				"credits": 4
 			},
 			{
-				"name": "ANALOG ELECTRONIC CIRCUITS",
-				"code": "PEI3I101",
+				"name": "MECHANICS OF SOLID",
+				"code": "PCI3I001",
 				"credits": 4
 			},
 			{
-				"name": "ELECTRICAL AND ELECTRONICS MEASUREMENT",
-				"code": "PEI3I102",
+				"name": "CONSTRUCTION TECHNOLOGY",
+				"code": "PCI3I002",
+				"credits": 3
+			},
+			{
+				"name": "FLUID MECHANICS & HYDRAULICS MACHINES",
+				"code": "PCI3I101",
 				"credits": 4
 			},
 			{
-				"name": "ENERGY CONVERSION DEVICES",
-				"code": "PEI3I103",
+				"name": "SURVEY",
+				"code": "PCI3I102",
 				"credits": 4
 			},
 			{
-				"name": "NETWORK THEORY",
-				"code": "PEI3I104",
+				"name": "GEOTECHNICAL ENGINEERING",
+				"code": "PCI3I103",
 				"credits": 4
 			},
 			{
 				"name": "ENGINEERING ECONOMICS",
 				"code": "PEK3E001",
 				"credits": 3
+			},
+			{
+				"name": "BUILDING DRAWING",
+				"code": "PCI3I201",
+				"credits": 1
 			}
 		]
 	},
@@ -122,23 +132,28 @@
 		"id": "4",
 		"subjects": [
 			{
-				"name": "COMMUNICATION SYSTEM ENGINEERING",
-				"code": "PEI4I101",
+				"name": "ENVIRONMENTAL POLLUTION AND MANAGEMENT",
+				"code": "PCI4D002",
 				"credits": 4
 			},
 			{
-				"name": "CONTROL SYSTEM ENGINEERING",
-				"code": "PEI4I102",
+				"name": "STRUCTURAL ANALYSIS - I",
+				"code": "PCI4I001",
+				"credits": 3
+			},
+			{
+				"name": "ADVANCED MECHANICS OF SOLIDS",
+				"code": "PCI4I101",
 				"credits": 4
 			},
 			{
-				"name": "DIGITAL ELECTRONICS",
-				"code": "PEI4I103",
+				"name": "HIGHWAY  & TRAFFIC ENGINEERING",
+				"code": "PCI4I102",
 				"credits": 4
 			},
 			{
-				"name": "INSTRUMENT DEVICES & SYSTEM - I",
-				"code": "PEI4I104",
+				"name": "DESIGN OF CONCRETE STRUCTURES",
+				"code": "PCI4I103",
 				"credits": 4
 			},
 			{
@@ -152,8 +167,13 @@
 				"credits": 3
 			},
 			{
+				"name": "MATERIAL TESTING LAB",
+				"code": "PCI4I201",
+				"credits": 1
+			},
+			{
 				"name": "SKILL PROJECT AND HANDS ON",
-				"code": "PEI4I201",
+				"code": "PCI4I202",
 				"credits": 3
 			}
 		]
@@ -163,33 +183,38 @@
 		"id": "5",
 		"subjects": [
 			{
-				"name": "NUMERICAL METHODS",
-				"code": "PEI5H001",
+				"name": "QUANTITY SURVEYING & ESTIMATING",
+				"code": "PCI5D002",
 				"credits": 4
 			},
 			{
-				"name": "INSTRUMENT DEVICES & SYSTEM - II",
-				"code": "PEI5I101",
+				"name": "HUMAN RESOURCES MANAGEMENT",
+				"code": "PCI5H001",
 				"credits": 4
 			},
 			{
-				"name": "MICROPROCESSOR & ITS INTERFACING",
-				"code": "PEI5I102",
+				"name": "STRUCTURAL ANALYSIS - II",
+				"code": "PCI5I101",
 				"credits": 4
 			},
 			{
-				"name": "DIGITAL SIGNAL PROCESSING",
-				"code": "PEI5I103",
+				"name": "DESIGN OF STEEL STRUCTURES",
+				"code": "PCI5I102",
 				"credits": 4
 			},
 			{
-				"name": "OPTOELECTRONICS DEVICE & INSTRUMENTATION",
-				"code": "PEI5J003",
+				"name": "WATER SUPPLY & SANITARY ENGINEERING",
+				"code": "PCI5I103",
 				"credits": 4
 			},
 			{
-				"name": "ADVANCE LAB - I (SIMULATION LAB)",
-				"code": "PEI5I201",
+				"name": "WATER RESOURCE ENGINEERING",
+				"code": "PCI5J001",
+				"credits": 4
+			},
+			{
+				"name": "ADVANCE LAB - I STRUCTURAL ENGINEERING LAB AND ADVANCED GEOTECHNICAL ENGINEERING LAB",
+				"code": "PCI5I201",
 				"credits": 4
 			}
 		]
