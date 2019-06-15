@@ -1,0 +1,330 @@
+[
+   {
+      "name":"Semester 1",
+      "id":"1",
+      "subjects":[
+         {
+            "name":"BASICS OF ELECTRONICS",
+            "code":"15BE2101",
+            "credits":4
+         },
+         {
+            "name":"MECHANICS",
+            "code":"15BE2104",
+            "credits":3
+         },
+         {
+            "name":"PROGRAMMING IN C",
+            "code":"15BE2105",
+            "credits":5
+         },
+         {
+            "name":"MATHEMATICS - I",
+            "code":"15BS1101",
+            "credits":4
+         },
+         {
+            "name":"PHYSICS",
+            "code":"15BS1102",
+            "credits":4
+         },
+         {
+            "name":"ENGLISH COMMUNICATION SKILL",
+            "code":"15HM3101",
+            "credits":3
+         },
+         {
+            "name":"ENGINEERING DRAWING",
+            "code":"15BE7101",
+            "credits":2
+         }
+      ]
+   },
+   {
+      "name":"Semester 2",
+      "id":"2",
+      "subjects":[
+         {
+            "name":"BASIC ELECTRICAL ENGINEERING",
+            "code":"15BE2102",
+            "credits":4
+         },
+         {
+            "name":"THERMODYNAMICS",
+            "code":"15BE2103",
+            "credits":3
+         },
+         {
+            "name":"DATA STRUCTURE USING C",
+            "code":"15BE2106",
+            "credits":5
+         },
+         {
+            "name":"CHEMISTRY",
+            "code":"15BS1103",
+            "credits":4
+         },
+         {
+            "name":"MATHEMATICS - II",
+            "code":"15BS1104",
+            "credits":4
+         },
+         {
+            "name":"BUSINESS COMMUNICATION",
+            "code":"15HM3102",
+            "credits":3
+         },
+         {
+            "name":"ENGINEERING WORKSHOP",
+            "code":"15BE7102",
+            "credits":2
+         }
+      ]
+   },
+   {
+      "name":"Semester 3",
+      "id":"3",
+      "subjects":[
+         {
+            "name":"ELECTRICAL ENGINEERING MATERIALS",
+            "code":"PEE3D001",
+            "credits":4
+         },
+         {
+            "name":"ELECTROMAGNETIC THEORY",
+            "code":"PEE3I001",
+            "credits":4
+         },
+         {
+            "name":"NETWORK THEORY",
+            "code":"PEE3I101",
+            "credits":4
+         },
+         {
+            "name":"ANALOG ELECTRONIC CIRCUITS",
+            "code":"PEE3I102",
+            "credits":4
+         },
+         {
+            "name":"ELECTRICAL MACHINES - I",
+            "code":"PEE3I103",
+            "credits":4
+         },
+         {
+            "name":"ELECTRICAL AND ELECTRONICS MEASUREMENT",
+            "code":"PEE3I104",
+            "credits":4
+         },
+         {
+            "name":"ORGANIZATIONAL BEHAVIOR",
+            "code":"POB3E002",
+            "credits":3
+         }
+      ]
+   },
+   {
+      "name":"Semester 4",
+      "id":"4",
+      "subjects":[
+         {
+            "name":"SENSOR & TRANSDUCERS",
+            "code":"PEE4D001",
+            "credits":4
+         },
+         {
+            "name":"ELECTRICAL MACHINES - II",
+            "code":"PEE4I101",
+            "credits":4
+         },
+         {
+            "name":"CONTROL SYSTEM ENGINEERING - I",
+            "code":"PEE4I102",
+            "credits":4
+         },
+         {
+            "name":"DIGITAL ELECTRONIC CIRCUITS",
+            "code":"PEE4I103",
+            "credits":4
+         },
+         {
+            "name":"ELECTRICAL POWER TRANSMISSION & DISTRIBUTION",
+            "code":"PEE4I104",
+            "credits":4
+         },
+         {
+            "name":"ENGINEERING ECONOMICS",
+            "code":"PEK4E002",
+            "credits":3
+         },
+         {
+            "name":"APPLIED MATHEMATICS-III",
+            "code":"PMA4E001",
+            "credits":3
+         },
+         {
+            "name":"SKILL PROJECT AND HANDS ON",
+            "code":"PEE4I201",
+            "credits":3
+         }
+      ]
+   },
+   {
+      "name":"Semester 5",
+      "id":"5",
+      "subjects":[
+         {
+            "name":"ELECTRICAL MACHINE DESIGN",
+            "code":"PEE5D001",
+            "credits":4
+         },
+         {
+            "name":"OPTIMIZATION IN ENGINEERING",
+            "code":"PEE5H001",
+            "credits":4
+         },
+         {
+            "name":"POWER ELECTRONICS",
+            "code":"PEE5I101",
+            "credits":4
+         },
+         {
+            "name":"MICROPROCESSOR & MICROCONTROLLER",
+            "code":"PEE5I102",
+            "credits":4
+         },
+         {
+            "name":"DIGITAL SIGNAL PROCESSING",
+            "code":"PEE5I103",
+            "credits":4
+         },
+         {
+            "name":"RENEWABLE ENERGY SYSTEMS",
+            "code":"PEE5J001",
+            "credits":4
+         },
+         {
+            "name":"ADVANCE LAB - I (ADVANCED ELECTRICAL COMPUTATIONAL LAB-I)",
+            "code":"PEE5I201",
+            "credits":4
+         }
+      ]
+   },
+   {
+      "name":"Semester 6",
+      "id":"6",
+      "subjects":[
+         {
+            "name":"FLEXIBLE AC TRANSMISSION SYSTEMS",
+            "code":"PEE6D002",
+            "credits":4
+         },
+         {
+            "name":"ELECTRICAL DRIVES",
+            "code":"PEE6I101",
+            "credits":4
+         },
+         {
+            "name":"POWER SYSTEM & OPERATION & CONTROL",
+            "code":"PEE6I102",
+            "credits":4
+         },
+         {
+            "name":"HVDC TRANSMISSION",
+            "code":"PEE6J003",
+            "credits":4
+         },
+         {
+            "name":"CONTROL SYSTEM ENGINEERING - II",
+            "code":"PEE6J004",
+            "credits":4
+         },
+         {
+            "name":"ENVIRONMENTAL SCIENCE & ENGINEERING",
+            "code":"PMG6M001",
+            "credits":3
+         },
+         {
+            "name":"INDUSTRIAL LECTURE  #",
+            "code":"PEE6H301",
+            "credits":1
+         },
+         {
+            "name":"BUSINESS COMMUNICATION & SKILL FOR INTERVIEW",
+            "code":"PEN6E101",
+            "credits":3
+         },
+         {
+            "name":"YOGA",
+            "code":"PMC6F201",
+            "credits":1
+         }
+      ]
+   },
+   {
+      "name":"Semester 7",
+      "id":"7",
+      "subjects":[
+         {
+            "name":"NANO SCIENCE & BIO TECHNOLOGY",
+            "code":"PCP7H008",
+            "credits":3
+         },
+         {
+            "name":"SOFT COMPUTING",
+            "code":"PCP7H010",
+            "credits":3
+         },
+         {
+            "name":"HIGH VOLTAGE ENGINEERING",
+            "code":"PEE7D013",
+            "credits":4
+         },
+         {
+            "name":"SWITCH GEAR & PROTECTIVE DEVICES",
+            "code":"PEE7J001",
+            "credits":3
+         },
+         {
+            "name":"COMMUNICATION ENGINEERING",
+            "code":"PEE7J004",
+            "credits":3
+         },
+         {
+            "name":"SEMINAR",
+            "code":"PEE7N201",
+            "credits":2
+         },
+         {
+            "name":"MINOR PROJECT",
+            "code":"PEE7N202",
+            "credits":4
+         }
+      ]
+   },
+   {
+      "name":"Semester 8",
+      "id":"8",
+      "subjects":[
+         {
+            "name":"ENTREPRENEURSHIP DEVELOPMENT",
+            "code":"PCP8H001",
+            "credits":3
+         },
+         {
+            "name":"SMART GRID",
+            "code":"PEE8J001",
+            "credits":3
+         },
+         {
+            "name":"SEMINAR",
+            "code":"PEE8N201",
+            "credits":2
+         },
+         {
+            "name":"MAJOR PROJECT",
+            "code":"PEE8N202",
+            "credits":7
+         }
+      ]
+   }
+]
