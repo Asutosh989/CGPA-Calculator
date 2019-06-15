@@ -45,6 +45,7 @@ class Home extends React.Component {
               <option value="it">IT</option>
               <option value="tex">TEXTILE</option>
               <option value="ee">ELECTRICAL</option>
+              <option value="bt">BIOTECHNOLOGY</option>
             </Input>
           </FormGroup>
           <Button type="submit" color="success">Submit</Button>

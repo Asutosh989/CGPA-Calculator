@@ -212,6 +212,125 @@
                 "credits": 4
             }
         ]
-    }
+    },
+
+    {
+        "name": "Semester 6",
+        "id": 6,
+        "subjects": [
+            {
+                "name": "COMPUTER NETWORK AND DATA COMMUNICATION",
+                "code": "PCS6I101",
+                "credits": 4
+            },
+            {
+                "name": "COMPILER DESIGN",
+                "code": "PCS6I102",
+                "credits": 4
+            },
+            {
+                "name": "EMBEDDED SYSTEM",
+                "code": "PCS6001",
+                "credits": 4
+            },
+            {
+                "name": "ENVIRONMENTAL SCIENCE AND ENGINEERING",
+                "code": "PMG6M001",
+                "credits": 3
+            },
+            {
+                "name": "DIGITAL IMAGE PROCESSING",
+                "code": "PCS6J001",
+                "credits": 4
+            },
+            {
+                "name": "INTERNET AND WEB TECHNOLOGIES",
+                "code": "PCS6J005",
+                "credits": 4
+            },
+            {
+                "name": "BUSINESS COMMUNICATION & SKILL FOR INTERVIEW",
+                "code": "PEN6E101",
+                "credits": 3
+            },
+            {
+                "name": "YOGA",
+                "code": "PMC6F201",
+                "credits": 1
+            },
+            {
+                "name": "INDUSTRIAL LECTURE",
+                "code": "PCS6H301",
+                "credits": 1
+            }
+        ]
+    },
+    {
+        "name":"Semester 7",
+        "id": 7,
+        "subjects":[
+            {
+                "name":"INTELLECTUAL PROPERTY RIGHTS (IPR)",
+                "code":"PCP7H009",
+                "credits":3
+            },
+            {
+                "name":"SOFT COMPUTING",
+                "code":"PCP7H010",
+                "credits":3
+            },
+            {
+                "name":"COMPUTATIONAL NUMBERS THEORY",
+                "code":"PCS7D001",
+                "credits":4
+            },
+            {
+                "name":"CRYPTOGRAPHY & NETWORK SECURITY",
+                "code":"PCS7J001",
+                "credits":3
+            },
+            {
+                "name":"MOBILE COMPUTING",
+                "code":"PCS7J004",
+                "credits":3
+            },
+            {
+                "name":"SEMINAR",
+                "code":"PCS7N201",
+                "credits":2
+            },
+            {
+                "name":"MINOR PROJECT",
+                "code":"PCS7N202",
+                "credits":4
+            }
+        ]
+    },
+    {
+        "name":"Semester 8",
+        "id": 8,
+        "subjects":[
+           {
+              "name":"E-COMMERCE & ERP",
+              "code":"PCP8H002",
+              "credits":3
+           },
+           {
+              "name":"EXPERT SYSTEMS",
+              "code":"PCS8J002",
+              "credits":3
+           },
+           {
+              "name":"SEMINAR",
+              "code":"PCS8N201",
+              "credits":2
+           },
+           {
+              "name":"MAJOR PROJECT",
+              "code":"PCS8N202",
+              "credits":7
+           }
+        ]
+     }
 
 ]

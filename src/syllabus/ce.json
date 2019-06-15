@@ -1,222 +1,340 @@
 [
 	{
-		"name": "Semester 1",
-		"id": "1",
-		"subjects": [
-			{
-				"name": "BASICS OF ELECTRONICS",
-				"code": "15BE2101",
-				"credits": 4
-			},
-			{
-				"name": "MECHANICS",
-				"code": "15BE2104",
-				"credits": 3
-			},
-			{
-				"name": "PROGRAMMING IN C",
-				"code": "15BE2105",
-				"credits": 5
-			},
-			{
-				"name": "MATHEMATICS - I",
-				"code": "15BS1101",
-				"credits": 4
-			},
-			{
-				"name": "PHYSICS",
-				"code": "15BS1102",
-				"credits": 4
-			},
-			{
-				"name": "ENGLISH COMMUNICATION SKILL",
-				"code": "15HM3101",
-				"credits": 3
-			},
-			{
-				"name": "ENGINEERING DRAWING",
-				"code": "15BE7101",
-				"credits": 2
-			}
-		]
+	   "name":"Semester 1",
+	   "id":"1",
+	   "subjects":[
+		  {
+			 "name":"BASICS OF ELECTRONICS",
+			 "code":"15BE2101",
+			 "credits":4
+		  },
+		  {
+			 "name":"MECHANICS",
+			 "code":"15BE2104",
+			 "credits":3
+		  },
+		  {
+			 "name":"PROGRAMMING IN C",
+			 "code":"15BE2105",
+			 "credits":5
+		  },
+		  {
+			 "name":"MATHEMATICS - I",
+			 "code":"15BS1101",
+			 "credits":4
+		  },
+		  {
+			 "name":"PHYSICS",
+			 "code":"15BS1102",
+			 "credits":4
+		  },
+		  {
+			 "name":"ENGLISH COMMUNICATION SKILL",
+			 "code":"15HM3101",
+			 "credits":3
+		  },
+		  {
+			 "name":"ENGINEERING DRAWING",
+			 "code":"15BE7101",
+			 "credits":2
+		  }
+	   ]
 	},
 	{
-		"name": "Semester 2",
-		"id": "2",
-		"subjects": [
-			{
-				"name": "BASIC ELECTRICAL ENGINEERING",
-				"code": "15BE2102",
-				"credits": 4
-			},
-			{
-				"name": "THERMODYNAMICS",
-				"code": "15BE2103",
-				"credits": 3
-			},
-			{
-				"name": "DATA STRUCTURE USING C",
-				"code": "15BE2106",
-				"credits": 5
-			},
-			{
-				"name": "CHEMISTRY",
-				"code": "15BS1103",
-				"credits": 4
-			},
-			{
-				"name": "MATHEMATICS - II",
-				"code": "15BS1104",
-				"credits": 4
-			},
-			{
-				"name": "BUSINESS COMMUNICATION",
-				"code": "15HM3102",
-				"credits": 3
-			},
-			{
-				"name": "ENGINEERING WORKSHOP",
-				"code": "15BE7102",
-				"credits": 2
-			}
-		]
+	   "name":"Semester 2",
+	   "id":"2",
+	   "subjects":[
+		  {
+			 "name":"BASIC ELECTRICAL ENGINEERING",
+			 "code":"15BE2102",
+			 "credits":4
+		  },
+		  {
+			 "name":"THERMODYNAMICS",
+			 "code":"15BE2103",
+			 "credits":3
+		  },
+		  {
+			 "name":"DATA STRUCTURE USING C",
+			 "code":"15BE2106",
+			 "credits":5
+		  },
+		  {
+			 "name":"CHEMISTRY",
+			 "code":"15BS1103",
+			 "credits":4
+		  },
+		  {
+			 "name":"MATHEMATICS - II",
+			 "code":"15BS1104",
+			 "credits":4
+		  },
+		  {
+			 "name":"BUSINESS COMMUNICATION",
+			 "code":"15HM3102",
+			 "credits":3
+		  },
+		  {
+			 "name":"ENGINEERING WORKSHOP",
+			 "code":"15BE7102",
+			 "credits":2
+		  }
+	   ]
 	},
 	{
-		"name": "Semester 3",
-		"id": "3",
-		"subjects": [
-			{
-				"name": "CONCRETE TECHNOLOGY",
-				"code": "PCI3D001",
-				"credits": 4
-			},
-			{
-				"name": "MECHANICS OF SOLID",
-				"code": "PCI3I001",
-				"credits": 4
-			},
-			{
-				"name": "CONSTRUCTION TECHNOLOGY",
-				"code": "PCI3I002",
-				"credits": 3
-			},
-			{
-				"name": "FLUID MECHANICS & HYDRAULICS MACHINES",
-				"code": "PCI3I101",
-				"credits": 4
-			},
-			{
-				"name": "SURVEY",
-				"code": "PCI3I102",
-				"credits": 4
-			},
-			{
-				"name": "GEOTECHNICAL ENGINEERING",
-				"code": "PCI3I103",
-				"credits": 4
-			},
-			{
-				"name": "ENGINEERING ECONOMICS",
-				"code": "PEK3E001",
-				"credits": 3
-			},
-			{
-				"name": "BUILDING DRAWING",
-				"code": "PCI3I201",
-				"credits": 1
-			}
-		]
+	   "name":"Semester 3",
+	   "id":"3",
+	   "subjects":[
+		  {
+			 "name":"CONCRETE TECHNOLOGY",
+			 "code":"PCI3D001",
+			 "credits":4
+		  },
+		  {
+			 "name":"MECHANICS OF SOLID",
+			 "code":"PCI3I001",
+			 "credits":4
+		  },
+		  {
+			 "name":"CONSTRUCTION TECHNOLOGY",
+			 "code":"PCI3I002",
+			 "credits":3
+		  },
+		  {
+			 "name":"FLUID MECHANICS & HYDRAULICS MACHINES",
+			 "code":"PCI3I101",
+			 "credits":4
+		  },
+		  {
+			 "name":"SURVEY",
+			 "code":"PCI3I102",
+			 "credits":4
+		  },
+		  {
+			 "name":"GEOTECHNICAL ENGINEERING",
+			 "code":"PCI3I103",
+			 "credits":4
+		  },
+		  {
+			 "name":"ENGINEERING ECONOMICS",
+			 "code":"PEK3E001",
+			 "credits":3
+		  },
+		  {
+			 "name":"BUILDING DRAWING",
+			 "code":"PCI3I201",
+			 "credits":1
+		  }
+	   ]
 	},
 	{
-		"name": "Semester 4",
-		"id": "4",
-		"subjects": [
-			{
-				"name": "ENVIRONMENTAL POLLUTION AND MANAGEMENT",
-				"code": "PCI4D002",
-				"credits": 4
-			},
-			{
-				"name": "STRUCTURAL ANALYSIS - I",
-				"code": "PCI4I001",
-				"credits": 3
-			},
-			{
-				"name": "ADVANCED MECHANICS OF SOLIDS",
-				"code": "PCI4I101",
-				"credits": 4
-			},
-			{
-				"name": "HIGHWAY  & TRAFFIC ENGINEERING",
-				"code": "PCI4I102",
-				"credits": 4
-			},
-			{
-				"name": "DESIGN OF CONCRETE STRUCTURES",
-				"code": "PCI4I103",
-				"credits": 4
-			},
-			{
-				"name": "APPLIED MATHEMATICS III",
-				"code": "PMA4E001",
-				"credits": 3
-			},
-			{
-				"name": "ORGANIZATIONAL BEHAVIOR",
-				"code": "POB4E003",
-				"credits": 3
-			},
-			{
-				"name": "MATERIAL TESTING LAB",
-				"code": "PCI4I201",
-				"credits": 1
-			},
-			{
-				"name": "SKILL PROJECT AND HANDS ON",
-				"code": "PCI4I202",
-				"credits": 3
-			}
-		]
+	   "name":"Semester 4",
+	   "id":"4",
+	   "subjects":[
+		  {
+			 "name":"ENVIRONMENTAL POLLUTION AND MANAGEMENT",
+			 "code":"PCI4D002",
+			 "credits":4
+		  },
+		  {
+			 "name":"STRUCTURAL ANALYSIS - I",
+			 "code":"PCI4I001",
+			 "credits":3
+		  },
+		  {
+			 "name":"ADVANCED MECHANICS OF SOLIDS",
+			 "code":"PCI4I101",
+			 "credits":4
+		  },
+		  {
+			 "name":"HIGHWAY  & TRAFFIC ENGINEERING",
+			 "code":"PCI4I102",
+			 "credits":4
+		  },
+		  {
+			 "name":"DESIGN OF CONCRETE STRUCTURES",
+			 "code":"PCI4I103",
+			 "credits":4
+		  },
+		  {
+			 "name":"APPLIED MATHEMATICS-III",
+			 "code":"PMA4E001",
+			 "credits":3
+		  },
+		  {
+			 "name":"ORGANIZATIONAL BEHAVIOR",
+			 "code":"POB4E003",
+			 "credits":3
+		  },
+		  {
+			 "name":"MATERIAL TESTING LAB",
+			 "code":"PCI4I201",
+			 "credits":1
+		  },
+		  {
+			 "name":"SKILL PROJECT AND HANDS ON",
+			 "code":"PCI4I202",
+			 "credits":3
+		  }
+	   ]
 	},
 	{
-		"name": "Semester 5",
-		"id": "5",
-		"subjects": [
-			{
-				"name": "QUANTITY SURVEYING & ESTIMATING",
-				"code": "PCI5D002",
-				"credits": 4
-			},
-			{
-				"name": "HUMAN RESOURCES MANAGEMENT",
-				"code": "PCI5H001",
-				"credits": 4
-			},
-			{
-				"name": "STRUCTURAL ANALYSIS - II",
-				"code": "PCI5I101",
-				"credits": 4
-			},
-			{
-				"name": "DESIGN OF STEEL STRUCTURES",
-				"code": "PCI5I102",
-				"credits": 4
-			},
-			{
-				"name": "WATER SUPPLY & SANITARY ENGINEERING",
-				"code": "PCI5I103",
-				"credits": 4
-			},
-			{
-				"name": "WATER RESOURCE ENGINEERING",
-				"code": "PCI5J001",
-				"credits": 4
-			},
-			{
-				"name": "ADVANCE LAB - I STRUCTURAL ENGINEERING LAB AND ADVANCED GEOTECHNICAL ENGINEERING LAB",
-				"code": "PCI5I201",
-				"credits": 4
-			}
-		]
+	   "name":"Semester 5",
+	   "id":"5",
+	   "subjects":[
+		  {
+			 "name":"QUANTITY SURVEYING & ESTIMATING",
+			 "code":"PCI5D002",
+			 "credits":4
+		  },
+		  {
+			 "name":"HUMAN RESOURCES MANAGEMENT",
+			 "code":"PCI5H001",
+			 "credits":4
+		  },
+		  {
+			 "name":"STRUCTURAL ANALYSIS - II",
+			 "code":"PCI5I101",
+			 "credits":4
+		  },
+		  {
+			 "name":"DESIGN OF STEEL STRUCTURES",
+			 "code":"PCI5I102",
+			 "credits":4
+		  },
+		  {
+			 "name":"WATER SUPPLY & SANITARY ENGINEERING",
+			 "code":"PCI5I103",
+			 "credits":4
+		  },
+		  {
+			 "name":"WATER RESOURCE ENGINEERING",
+			 "code":"PCI5J001",
+			 "credits":4
+		  },
+		  {
+			 "name":"ADVANCE LAB - I STRUCTURAL ENGINEERING LAB AND ADVANCED GEOTECHNICAL ENGINEERING LAB",
+			 "code":"PCI5I201",
+			 "credits":4
+		  }
+	   ]
+	},
+	{
+	   "name":"Semester 6",
+	   "id":"6",
+	   "subjects":[
+		  {
+			 "name":"APPLICATIONS OF MATRIX METHOD IN STRUCTURAL ANALYS",
+			 "code":"PCI6D001",
+			 "credits":4
+		  },
+		  {
+			 "name":"FOUNDATION ENGINEERING",
+			 "code":"PCI6I101",
+			 "credits":4
+		  },
+		  {
+			 "name":"IRRIGATION ENGINEERING",
+			 "code":"PCI6I102",
+			 "credits":4
+		  },
+		  {
+			 "name":"ADVANCED TRANSPORTATION ENGINEERING",
+			 "code":"PCI6J001",
+			 "credits":4
+		  },
+		  {
+			 "name":"PRESTRESSED CONCRETE",
+			 "code":"PCI6J006",
+			 "credits":4
+		  },
+		  {
+			 "name":"ENVIRONMENTAL SCIENCE & ENGINEERING",
+			 "code":"PMG6M001",
+			 "credits":3
+		  },
+		  {
+			 "name":"INDUSTRIAL LECTURE",
+			 "code":"PCI6H301",
+			 "credits":1
+		  },
+		  {
+			 "name":"BUSINESS COMMUNICATION & SKILL FOR INTERVIEW",
+			 "code":"PEN6E101",
+			 "credits":3
+		  },
+		  {
+			 "name":"YOGA",
+			 "code":"PMC6F201",
+			 "credits":1
+		  }
+	   ]
+	},
+	{
+	   "name":"Semester 7",
+	   "id":"7",
+	   "subjects":[
+		  {
+			 "name":"ADVANCED DESIGN OF REINFORCED CONCRETE STRUCTURES",
+			 "code":"PCI7D002",
+			 "credits":4
+		  },
+		  {
+			 "name":"GROUND IMPROVEMENT TECHNIQUE",
+			 "code":"PCI7J002",
+			 "credits":3
+		  },
+		  {
+			 "name":"INDUSTRIAL WASTE MANAGEMENT & DISPOSAL",
+			 "code":"PCI7J004",
+			 "credits":3
+		  },
+		  {
+			 "name":"INTELLECTUAL PROPERTY RIGHTS (IPR)",
+			 "code":"PCP7H009",
+			 "credits":3
+		  },
+		  {
+			 "name":"MARKETING MANAGEMENT",
+			 "code":"PCP7H012",
+			 "credits":3
+		  },
+		  {
+			 "name":"SEMINAR",
+			 "code":"PCI7N201",
+			 "credits":2
+		  },
+		  {
+			 "name":"MINOR PROJECT",
+			 "code":"PCI7N202",
+			 "credits":4
+		  }
+	   ]
+	},
+	{
+	   "name":"Semester 8",
+	   "id":"8",
+	   "subjects":[
+		  {
+			 "name":"ENVIRONMENTAL GEOTECHNIQUE",
+			 "code":"PCI8J001",
+			 "credits":3
+		  },
+		  {
+			 "name":"ENTREPRENEURSHIP DEVELOPMENT",
+			 "code":"PCP8H001",
+			 "credits":3
+		  },
+		  {
+			 "name":"SEMINAR",
+			 "code":"PCI8N201",
+			 "credits":2
+		  },
+		  {
+			 "name":"MAJOR PROJECT",
+			 "code":"PCI8N202",
+			 "credits":7
+		  }
+	   ]
 	}
-]
+ ]

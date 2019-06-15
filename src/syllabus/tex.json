@@ -1,202 +1,330 @@
 [
     {
-        "name": "Semester 1",
-        "id": 1,
-        "subjects": [
-            {
-                "name": "BASICS OF ELECTRONICS",
-                "code": "15BE2101",
-                "credits": 4
-            },
-            {
-                "name": "MECHANICS",
-                "code": "15BE2104",
-                "credits": 3
-            },
-            {
-                "name": "PROGRAMMING IN C",
-                "code": "15BE2105",
-                "credits": 5
-            },
-            {
-                "name": "MATHEMATICS - I",
-                "code": "15BS1101",
-                "credits": 4
-            },
-            {
-                "name": "PHYSICS",
-                "code": "15BS1102",
-                "credits": 4
-            },
-            {
-                "name": "ENGLISH COMMUNICATION SKILL",
-                "code": "15HM3101",
-                "credits": 3
-            },
-            {
-                "name": "ENGINEERING DRAWING",
-                "code": "15BE7101",
-                "credits": 2
-            }
-        ]
+       "name":"Semester 1",
+       "id":"1",
+       "subjects":[
+          {
+             "name":"BASICS OF ELECTRONICS",
+             "code":"15BE2101",
+             "credits":4
+          },
+          {
+             "name":"MECHANICS",
+             "code":"15BE2104",
+             "credits":3
+          },
+          {
+             "name":"PROGRAMMING IN C",
+             "code":"15BE2105",
+             "credits":5
+          },
+          {
+             "name":"MATHEMATICS - I",
+             "code":"15BS1101",
+             "credits":4
+          },
+          {
+             "name":"PHYSICS",
+             "code":"15BS1102",
+             "credits":4
+          },
+          {
+             "name":"ENGLISH COMMUNICATION SKILL",
+             "code":"15HM3101",
+             "credits":3
+          },
+          {
+             "name":"ENGINEERING DRAWING",
+             "code":"15BE7101",
+             "credits":2
+          }
+       ]
     },
-
     {
-        "name": "Semester 2",
-        "id": 2,
-        "subjects": [
-            {
-                "name": "BASIC ELECTRICAL ENGINEERING",
-                "code": "15BE2102",
-                "credits": 4
-            },
-            {
-                "name": "THERMODYNAMICS",
-                "code": "15BE2103",
-                "credits": 3
-            },
-            {
-                "name": "DATA STRUCTURE USING C",
-                "code": "15BE2106",
-                "credits": 5
-            },
-            {
-                "name": "CHEMISTRY",
-                "code": "15BS1103",
-                "credits": 4
-            },
-            {
-                "name": "MATHEMATICS - II",
-                "code": "15BS1104",
-                "credits": 4
-            },
-            {
-                "name": "BUSINESS COMMUNICATION",
-                "code": "15HM3102",
-                "credits": 3
-            },
-            {
-                "name": "ENGINEERING WORKSHOP",
-                "code": "15BE7102",
-                "credits": 2
-            }
-        ]
+       "name":"Semester 2",
+       "id":"2",
+       "subjects":[
+          {
+             "name":"BASIC ELECTRICAL ENGINEERING",
+             "code":"15BE2102",
+             "credits":4
+          },
+          {
+             "name":"THERMODYNAMICS",
+             "code":"15BE2103",
+             "credits":3
+          },
+          {
+             "name":"DATA STRUCTURE USING C",
+             "code":"15BE2106",
+             "credits":5
+          },
+          {
+             "name":"CHEMISTRY",
+             "code":"15BS1103",
+             "credits":4
+          },
+          {
+             "name":"MATHEMATICS - II",
+             "code":"15BS1104",
+             "credits":4
+          },
+          {
+             "name":"BUSINESS COMMUNICATION",
+             "code":"15HM3102",
+             "credits":3
+          },
+          {
+             "name":"ENGINEERING WORKSHOP",
+             "code":"15BE7102",
+             "credits":2
+          }
+       ]
     },
-
     {
-        "name": "Semester 3",
-        "id": 3,
-        "subjects": [
-            {
-                "name": "ORGANIZATIONAL BEHAVIOR",
-                "code": "POB3E002",
-                "credits": 3
-            },
-            {
-                "name": "APPLICATION OF STATISTICS FOR TEXTILE MANUFACTURING ",
-                "code": "PTX3I001",
-                "credits": 4
-            },
-            {
-                "name": "FIBRE SCIENCE AND TECHNOLOGY - I",
-                "code": "PTX3I101",
-                "credits": 4
-            },
-            {
-                "name": "YARN MANUFACTURING - I",
-                "code": "PTX3I102",
-                "credits": 4
-            },
-            {
-                "name": "FABRIC MANUFACTURING - I",
-                "code": "PTX3I103",
-                "credits": 4
-            },
-            {
-                "name": "TEXTILE CHEMICAL PROCESSING - I",
-                "code": "PTX3I104",
-                "credits": 4
-            }
-        ]
+       "name":"Semester 3",
+       "id":"3",
+       "subjects":[
+          {
+             "name":"SOFTWARE ENGINEERING",
+             "code":"PIT3G001",
+             "credits":4
+          },
+          {
+             "name":"ORGANIZATIONAL BEHAVIOR",
+             "code":"POB3E002",
+             "credits":3
+          },
+          {
+             "name":"APPLICATION OF STATISTICS FOR TEXTILE MANUFACTURING",
+             "code":"PTX3I001",
+             "credits":4
+          },
+          {
+             "name":"FIBRE SCIENCE AND TECHNOLOGY - I",
+             "code":"PTX3I101",
+             "credits":4
+          },
+          {
+             "name":"YARN MANUFACTURING - I",
+             "code":"PTX3I102",
+             "credits":4
+          },
+          {
+             "name":"FABRIC MANUFACTURING - I",
+             "code":"PTX3I103",
+             "credits":4
+          },
+          {
+             "name":"TEXTILE CHEMICAL PROCESSING - I",
+             "code":"PTX3I104",
+             "credits":4
+          }
+       ]
     },
-
     {
-        "name": "Semester 4",
-        "id": 4,
-        "subjects": [
-            {
-                "name": "ENGINEERING ECONOMICS",
-                "code": "PEK4E002",
-                "credits": 3
-            },
-            {
-                "name": "APPLIED MATHEMATICS III",
-                "code": "PMA4E001",
-                "credits": 3
-            },
-            {
-                "name": "FIBRE SCIENCE & TECHNOLOGY - II",
-                "code": "PTX4I101",
-                "credits": 4
-            },
-            {
-                "name": "YARN MANUFACTURING - II",
-                "code": "PTX4I102",
-                "credits": 4
-            },
-            {
-                "name": "FABRIC MANUFACTURING - II",
-                "code": "PTX4I103",
-                "credits": 4
-            },
-            {
-                "name": "TEXTILE CHEMICAL PROCESSING - II",
-                "code": "PTX4I104",
-                "credits": 4
-            },
-            {
-                "name": "SKILL PROJECT AND HANDS ON",
-                "code": "PCS4I201",
-                "credits": 3
-            }
-        ]
+       "name":"Semester 4",
+       "id":"4",
+       "subjects":[
+          {
+             "name":"ENGINEERING ECONOMICS",
+             "code":"PEK4E002",
+             "credits":3
+          },
+          {
+             "name":"DATA ANALYTICS",
+             "code":"PIT4G001",
+             "credits":4
+          },
+          {
+             "name":"APPLIED MATHEMATICS-III",
+             "code":"PMA4E001",
+             "credits":3
+          },
+          {
+             "name":"FIBRE SCIENCE & TECHNOLOGY - II",
+             "code":"PTX4I101",
+             "credits":4
+          },
+          {
+             "name":"YARN MANUFACTURING - II",
+             "code":"PTX4I102",
+             "credits":4
+          },
+          {
+             "name":"FABRIC MANUFACTURING - II",
+             "code":"PTX4I103",
+             "credits":4
+          },
+          {
+             "name":"TEXTILE CHEMICAL PROCESSING - II",
+             "code":"PTX4I104",
+             "credits":4
+          },
+          {
+             "name":"SKILL PROJECT AND HANDS ON",
+             "code":"PTX4I201",
+             "credits":3
+          }
+       ]
     },
-
     {
-        "name": "Semester 5",
-        "id": 5,
-        "subjects": [
-            {
-                "name": "C++ & OBJECT ORIENTED PROGRAMMING",
-                "code": "PTX5H001",
-                "credits": 4
-            },
-            {
-                "name": "YARN MANUFACTURING - III",
-                "code": "PTX5I101",
-                "credits": 4
-            },
-            {
-                "name": "FABRIC MANUFACTURING - III",
-                "code": "PTX5I102",
-                "credits": 4
-            },
-            {
-                "name": "FABRIC STRUCTURE & DESIGN",
-                "code": "PTX5I103",
-                "credits": 4
-            },
-            {
-                "name": "PROCESS CONTROL IN TEXTILE CHEMICAL PROCESSING",
-                "code": "PTX5J003",
-                "credits": 4
-            },
-            {
-                "name": "ADVANCE LAB - I",
-                "code": "PTX5I201",
-                "credits": 4
-            }
-        ]
+       "name":"Semester 5",
+       "id":"5",
+       "subjects":[
+          {
+             "name":"E-COMMERCE & ERP",
+             "code":"PIT5G001",
+             "credits":4
+          },
+          {
+             "name":"PRODUCTION MANAGEMENT",
+             "code":"PTX5H003",
+             "credits":4
+          },
+          {
+             "name":"YARN MANUFACTURING - III",
+             "code":"PTX5I101",
+             "credits":4
+          },
+          {
+             "name":"FABRIC MANUFACTURING - III",
+             "code":"PTX5I102",
+             "credits":4
+          },
+          {
+             "name":"FABRIC STRUCTURE & DESIGN",
+             "code":"PTX5I103",
+             "credits":4
+          },
+          {
+             "name":"PROCESS CONTROL IN TEXTILE CHEMICAL PROCESSING",
+             "code":"PTX5J003",
+             "credits":4
+          },
+          {
+             "name":"ADVANCE LAB - I",
+             "code":"PTX5I201",
+             "credits":4
+          }
+       ]
+    },
+    {
+       "name":"Semester 6",
+       "id":"6",
+       "subjects":[
+          {
+             "name":"INTERNET & WEB TECHNOLOGY",
+             "code":"PIT6G001",
+             "credits":4
+          },
+          {
+             "name":"ENVIRONMENTAL SCIENCE & ENGINEERING",
+             "code":"PMG6M001",
+             "credits":3
+          },
+          {
+             "name":"THEORY OF TEXTILE STRUCTURE",
+             "code":"PTX6I101",
+             "credits":4
+          },
+          {
+             "name":"TESTING OF TEXTILE MATERIALS",
+             "code":"PTX6I102",
+             "credits":4
+          },
+          {
+             "name":"MANUFACTURING OF SPECIALTY YARN",
+             "code":"PTX6J003",
+             "credits":4
+          },
+          {
+             "name":"ADVANCED CHEMICAL PROCESSING",
+             "code":"PTX6J005",
+             "credits":4
+          },
+          {
+             "name":"BUSINESS COMMUNICATION & SKILL FOR INTERVIEW",
+             "code":"PEN6E101",
+             "credits":3
+          },
+          {
+             "name":"YOGA",
+             "code":"PMC6F201",
+             "credits":1
+          },
+          {
+             "name":"INDUSTRIAL LECTURE  #",
+             "code":"PTX6H301",
+             "credits":1
+          }
+       ]
+    },
+    {
+       "name":"Semester 7",
+       "id":"7",
+       "subjects":[
+          {
+             "name":"INTERNET OF THINGS (IOT)",
+             "code":"PCP7H007",
+             "credits":3
+          },
+          {
+             "name":"MARKETING MANAGEMENT",
+             "code":"PCP7H012",
+             "credits":3
+          },
+          {
+             "name":"ADVANCE OPERATING SYSTEM",
+             "code":"PIT7G002",
+             "credits":4
+          },
+          {
+             "name":"CLOTHING SCIENCE & TECHNOLOGY",
+             "code":"PTX7J001",
+             "credits":3
+          },
+          {
+             "name":"ENTREPRENEURSHIP IN TEXTILE",
+             "code":"PTX7J006",
+             "credits":3
+          },
+          {
+             "name":"SEMINAR",
+             "code":"PTX7N201",
+             "credits":2
+          },
+          {
+             "name":"MINOR PROJECT",
+             "code":"PTX7N202",
+             "credits":4
+          }
+       ]
+    },
+    {
+       "name":"Semester 8",
+       "id":"8",
+       "subjects":[
+          {
+             "name":"ENTREPRENEURSHIP DEVELOPMENT",
+             "code":"PCP8H001",
+             "credits":3
+          },
+          {
+             "name":"INTELLIGENT & FUNCTIONAL TEXTILE",
+             "code":"PTX8J002",
+             "credits":3
+          },
+          {
+             "name":"SEMINAR",
+             "code":"PTX8N201",
+             "credits":2
+          },
+          {
+             "name":"MAJOR PROJECT",
+             "code":"PTX8N202",
+             "credits":7
+          }
+       ]
     }
-
-]
+ ]

@@ -1,202 +1,330 @@
 [
 	{
-		"name": "Semester 1",
-		"id": "1",
-		"subjects": [
-			{
-				"name": "BASIC ELECTRICAL ENGINEERING",
-				"code": "15BE2102",
-				"credits": 4
-			},
-			{
-				"name": "THERMODYNAMICS",
-				"code": "15BE2103",
-				"credits": 3
-			},
-			{
-				"name": "PROGRAMMING IN C",
-				"code": "15BE2105",
-				"credits": 5
-			},
-			{
-				"name": "MATHEMATICS - I",
-				"code": "15BS1101",
-				"credits": 4
-			},
-			{
-				"name": "CHEMISTRY",
-				"code": "15BS1103",
-				"credits": 4
-			},
-			{
-				"name": "ENGLISH COMMUNICATION SKILL",
-				"code": "15HM3101",
-				"credits": 3
-			},
-			{
-				"name": "ENGINEERING WORKSHOP",
-				"code": "15BE7102",
-				"credits": 2
-			}
-		]
+	   "name":"Semester 1",
+	   "id":"1",
+	   "subjects":[
+		  {
+			 "name":"BASIC ELECTRICAL ENGINEERING",
+			 "code":"15BE2102",
+			 "credits":4
+		  },
+		  {
+			 "name":"THERMODYNAMICS",
+			 "code":"15BE2103",
+			 "credits":3
+		  },
+		  {
+			 "name":"PROGRAMMING IN C",
+			 "code":"15BE2105",
+			 "credits":5
+		  },
+		  {
+			 "name":"MATHEMATICS - I",
+			 "code":"15BS1101",
+			 "credits":4
+		  },
+		  {
+			 "name":"CHEMISTRY",
+			 "code":"15BS1103",
+			 "credits":4
+		  },
+		  {
+			 "name":"ENGLISH COMMUNICATION SKILL",
+			 "code":"15HM3101",
+			 "credits":3
+		  },
+		  {
+			 "name":"ENGINEERING WORKSHOP",
+			 "code":"15BE7102",
+			 "credits":2
+		  }
+	   ]
 	},
 	{
-		"name": "Semester 2",
-		"id": "2",
-		"subjects": [
-			{
-				"name": "BASICS OF ELECTRONICS",
-				"code": "15BE2101",
-				"credits": 4
-			},
-			{
-				"name": "MECHANICS",
-				"code": "15BE2104",
-				"credits": 3
-			},
-			{
-				"name": "DATA STRUCTURE USING C",
-				"code": "15BE2106",
-				"credits": 5
-			},
-			{
-				"name": "PHYSICS",
-				"code": "15BS1102",
-				"credits": 4
-			},
-			{
-				"name": "MATHEMATICS - II",
-				"code": "15BS1104",
-				"credits": 4
-			},
-			{
-				"name": "BUSINESS COMMUNICATION",
-				"code": "15HM3102",
-				"credits": 3
-			},
-			{
-				"name": "ENGINEERING DRAWING",
-				"code": "15BE7101",
-				"credits": 2
-			}
-		]
+	   "name":"Semester 2",
+	   "id":"2",
+	   "subjects":[
+		  {
+			 "name":"BASICS OF ELECTRONICS",
+			 "code":"15BE2101",
+			 "credits":4
+		  },
+		  {
+			 "name":"MECHANICS",
+			 "code":"15BE2104",
+			 "credits":3
+		  },
+		  {
+			 "name":"DATA STRUCTURE USING C",
+			 "code":"15BE2106",
+			 "credits":5
+		  },
+		  {
+			 "name":"PHYSICS",
+			 "code":"15BS1102",
+			 "credits":4
+		  },
+		  {
+			 "name":"MATHEMATICS - II",
+			 "code":"15BS1104",
+			 "credits":4
+		  },
+		  {
+			 "name":"BUSINESS COMMUNICATION",
+			 "code":"15HM3102",
+			 "credits":3
+		  },
+		  {
+			 "name":"ENGINEERING DRAWING",
+			 "code":"15BE7101",
+			 "credits":2
+		  }
+	   ]
 	},
 	{
-		"name": "Semester 3",
-		"id": "3",
-		"subjects": [
-			{
-				"name": "ARTIFICIAL INTELLIGENCE",
-				"code": "PIT3D001",
-				"credits": 4
-			},
-			{
-				"name": "DISCRETE STRUCTURES",
-				"code": "PIT3I001",
-				"credits": 4
-			},
-			{
-				"name": "SWITCHING THEORY & LOGIC DESIGN",
-				"code": "PIT3I101",
-				"credits": 4
-			},
-			{
-				"name": "OBJECT ORIENTED PROGRAMMING USING JAVA",
-				"code": "PIT3I102",
-				"credits": 4
-			},
-			{
-				"name": "SYSTEM PROGRAMMING",
-				"code": "PIT3I103",
-				"credits": 4
-			},
-			{
-				"name": "SOFTWARE ENGINEERING",
-				"code": "PIT3I104",
-				"credits": 4
-			},
-			{
-				"name": "ORGANIZATIONAL BEHAVIOR",
-				"code": "POB3E002",
-				"credits": 3
-			}
-		]
+	   "name":"Semester 3",
+	   "id":"3",
+	   "subjects":[
+		  {
+			 "name":"ARTIFICIAL INTELLIGENCE",
+			 "code":"PIT3D001",
+			 "credits":4
+		  },
+		  {
+			 "name":"DISCRETE STRUCTURES",
+			 "code":"PIT3I001",
+			 "credits":4
+		  },
+		  {
+			 "name":"SWITCHING THEORY & LOGIC DESIGN",
+			 "code":"PIT3I101",
+			 "credits":4
+		  },
+		  {
+			 "name":"OBJECT ORIENTED PROGRAMMING USING JAVA",
+			 "code":"PIT3I102",
+			 "credits":4
+		  },
+		  {
+			 "name":"SYSTEM PROGRAMMING",
+			 "code":"PIT3I103",
+			 "credits":4
+		  },
+		  {
+			 "name":"SOFTWARE ENGINEERING",
+			 "code":"PIT3I104",
+			 "credits":4
+		  },
+		  {
+			 "name":"ORGANIZATIONAL BEHAVIOR",
+			 "code":"POB3E002",
+			 "credits":3
+		  }
+	   ]
 	},
 	{
-		"name": "Semester 4",
-		"id": "4",
-		"subjects": [
-			{
-				"name": "ENGINEERING ECONOMICS",
-				"code": "PEK4E002",
-				"credits": 3
-			},
-			{
-				"name": "COMPUTER ORGANIZATION & ARCHITECTURE",
-				"code": "PIT4I101",
-				"credits": 4
-			},
-			{
-				"name": "DESIGN & ANALYSIS OF ALGORITHMS",
-				"code": "PIT4I102",
-				"credits": 4
-			},
-			{
-				"name": "DATABASE SYSTEM",
-				"code": "PIT4I103",
-				"credits": 4
-			},
-			{
-				"name": "FORMAL LANGUAGE & AUTOMATA THEORY",
-				"code": "PIT4I104",
-				"credits": 4
-			},
-			{
-				"name": "APPLIED MATHEMATICS III",
-				"code": "PMA4E001",
-				"credits": 3
-			},
-			{
-				"name": "SKILL PROJECT AND HANDS ON",
-				"code": "PIT4I201",
-				"credits": 3
-			}
-		]
+	   "name":"Semester 4",
+	   "id":"4",
+	   "subjects":[
+		  {
+			 "name":"ENGINEERING ECONOMICS",
+			 "code":"PEK4E002",
+			 "credits":3
+		  },
+		  {
+			 "name":"DATA ANALYTICS",
+			 "code":"PIT4D001",
+			 "credits":4
+		  },
+		  {
+			 "name":"COMPUTER ORGANIZATION & ARCHITECTURE",
+			 "code":"PIT4I101",
+			 "credits":4
+		  },
+		  {
+			 "name":"DESIGN & ANALYSIS OF ALGORITHMS",
+			 "code":"PIT4I102",
+			 "credits":4
+		  },
+		  {
+			 "name":"DATABASE SYSTEM",
+			 "code":"PIT4I103",
+			 "credits":4
+		  },
+		  {
+			 "name":"FORMAL LANGUAGE & AUTOMATA THEORY",
+			 "code":"PIT4I104",
+			 "credits":4
+		  },
+		  {
+			 "name":"APPLIED MATHEMATICS-III",
+			 "code":"PMA4E001",
+			 "credits":3
+		  },
+		  {
+			 "name":"SKILL PROJECT AND HANDS ON",
+			 "code":"PIT4I201",
+			 "credits":3
+		  }
+	   ]
 	},
 	{
-		"name": "Semester 5",
-		"id": "5",
-		"subjects": [
-			{
-				"name": "DATA MINING & DATA WAREHOUSING",
-				"code": "PIT5H002",
-				"credits": 4
-			},
-			{
-				"name": "OPERATING SYSTEMS",
-				"code": "PIT5I101",
-				"credits": 4
-			},
-			{
-				"name": "ADVANCED JAVA PROGRAMMING",
-				"code": "PIT5I102",
-				"credits": 4
-			},
-			{
-				"name": "E-COMMERCE & ERP",
-				"code": "PIT5I103",
-				"credits": 4
-			},
-			{
-				"name": "COMPUTER GRAPHICS",
-				"code": "PIT5J001",
-				"credits": 4
-			},
-			{
-				"name": "ADVANCE LAB - I",
-				"code": "PIT5I201",
-				"credits": 4
-			}
-		]
+	   "name":"Semester 5",
+	   "id":"5",
+	   "subjects":[
+		  {
+			 "name":"REAL TIME SYSTEMS",
+			 "code":"PIT5D001",
+			 "credits":4
+		  },
+		  {
+			 "name":"DATA MINING & DATA WAREHOUSING",
+			 "code":"PIT5H002",
+			 "credits":4
+		  },
+		  {
+			 "name":"OPERATING SYSTEMS",
+			 "code":"PIT5I101",
+			 "credits":4
+		  },
+		  {
+			 "name":"ADVANCED JAVA PROGRAMMING",
+			 "code":"PIT5I102",
+			 "credits":4
+		  },
+		  {
+			 "name":"E-COMMERCE & ERP",
+			 "code":"PIT5I103",
+			 "credits":4
+		  },
+		  {
+			 "name":"COMPUTER GRAPHICS",
+			 "code":"PIT5J001",
+			 "credits":4
+		  },
+		  {
+			 "name":"ADVANCE LAB - I",
+			 "code":"PIT5I201",
+			 "credits":4
+		  }
+	   ]
+	},
+	{
+	   "name":"Semester 6",
+	   "id":"6",
+	   "subjects":[
+		  {
+			 "name":"EMBEDDED SYSTEMS",
+			 "code":"PIT6D001",
+			 "credits":4
+		  },
+		  {
+			 "name":"COMPUTER NETWORK AND DATA COMMUNICATION",
+			 "code":"PIT6I101",
+			 "credits":4
+		  },
+		  {
+			 "name":"INTERNET & WEB TECHNOLOGY",
+			 "code":"PIT6I102",
+			 "credits":4
+		  },
+		  {
+			 "name":"COMPILER DESIGN",
+			 "code":"PIT6J001",
+			 "credits":4
+		  },
+		  {
+			 "name":"OBJECT ORIENTED SOFTWARE ENGINEERING",
+			 "code":"PIT6J009",
+			 "credits":4
+		  },
+		  {
+			 "name":"ENVIRONMENTAL SCIENCE & ENGINEERING",
+			 "code":"PMG6M001",
+			 "credits":3
+		  },
+		  {
+			 "name":"BUSINESS COMMUNICATION & SKILL FOR INTERVIEW",
+			 "code":"PEN6E101",
+			 "credits":3
+		  },
+		  {
+			 "name":"INDUSTRIAL LECTURE  #",
+			 "code":"PIT6H301",
+			 "credits":1
+		  },
+		  {
+			 "name":"YOGA",
+			 "code":"PMC6F201",
+			 "credits":1
+		  }
+	   ]
+	},
+	{
+	   "name":"Semester 7",
+	   "id":"7",
+	   "subjects":[
+		  {
+			 "name":"INTERNET OF THINGS (IOT)",
+			 "code":"PCP7H007",
+			 "credits":3
+		  },
+		  {
+			 "name":"SOFT COMPUTING",
+			 "code":"PCP7H010",
+			 "credits":3
+		  },
+		  {
+			 "name":"COMPUTATIONAL NUMBERS THEORY",
+			 "code":"PIT7D001",
+			 "credits":4
+		  },
+		  {
+			 "name":"CRYPTOGRAPHY & NETWORK SECURITY",
+			 "code":"PIT7J001",
+			 "credits":3
+		  },
+		  {
+			 "name":"MOBILE COMPUTING",
+			 "code":"PIT7J004",
+			 "credits":3
+		  },
+		  {
+			 "name":"SEMINAR",
+			 "code":"PIT7N201",
+			 "credits":2
+		  },
+		  {
+			 "name":"MINOR PROJECT",
+			 "code":"PIT7N202",
+			 "credits":4
+		  }
+	   ]
+	},
+	{
+	   "name":"Semester 8",
+	   "id":"8",
+	   "subjects":[
+		  {
+			 "name":"ENTREPRENEURSHIP DEVELOPMENT",
+			 "code":"PCP8H001",
+			 "credits":3
+		  },
+		  {
+			 "name":"ALGORITHM FOR BIOINFORMATICS",
+			 "code":"PIT8J001",
+			 "credits":3
+		  },
+		  {
+			 "name":"SEMINAR",
+			 "code":"PIT8N201",
+			 "credits":2
+		  },
+		  {
+			 "name":"MAJOR PROJECT",
+			 "code":"PIT8N202",
+			 "credits":7
+		  }
+	   ]
 	}
-]
+ ]
