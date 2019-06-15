@@ -8,8 +8,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 ReactDOM.render(<App />, document.getElementById('root'));
 
 if (module.hot) {
-    module.hot.accept('./App', () => {
-        ReactDOM.render(<App />, document.getElementById('root'));
-    })
+  module.hot.accept('./App', () => {
+    ReactDOM.render(<App />, document.getElementById('root'));
+  });
 }
 registerServiceWorker();

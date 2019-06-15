@@ -15,9 +15,10 @@ export default class Calculator extends React.Component {
   }
 
   calculate = () => {
+    const { uni, year, branch } = this.props.match.params;
 
     const grades = [];
-    for (let semester of syllabus[this.props.match.params.branch]) {
+    for (let semester of syllabus[uni][year][branch]) {
       for (let subject of semester.subjects) {
         grades.push({
           ...subject,
@@ -28,18 +29,17 @@ export default class Calculator extends React.Component {
     this.setState({
       gpa: calculateGpa(grades),
       dirty: false
-
     });
-
-  }
+  };
 
   render() {
+    const { uni, year, branch } = this.props.match.params;
+
     return (
       <Container>
         <Row>
           <Col md={8}>
-            {/* {this.props.match.params.branch} */}
-            {syllabus[this.props.match.params.branch].map(semester => (
+            {syllabus[uni][year][branch].map(semester => (
               <div key={semester.id}>
                 <h1>{semester.name}</h1>
                 <Table>
@@ -57,39 +57,42 @@ export default class Calculator extends React.Component {
                         <td>{subject.code}</td>
                         <td>{subject.name}</td>
                         <td>{subject.credits}</td>
-                        <td><Input type="select" name="select" value={this.state.grades[subject.code] || "O"} onChange={e => this.setState({
-                          grades: {
-                            // ... is the spread syntax. It copies all properties of arrays and objects here
-                            ...this.state.grades,
-                            // [subject.code] computed object property name 
-                            // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer#Computed_property_names 
+                        <td>
+                          <Input
+                            type="select"
+                            name="select"
+                            value={this.state.grades[subject.code] || 'O'}
+                            onChange={e =>
+                              this.setState({
+                                grades: {
+                                  // ... is the spread syntax. It copies all properties of arrays and objects here
+                                  ...this.state.grades,
+                                  // [subject.code] computed object property name
+                                  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer#Computed_property_names
 
-                            [subject.code]: e.target.value
-                          },
-                          dirty: true
-
-                        })}>
-                          <option value="O">O</option>
-                          <option value="E">E</option>
-                          <option value="A">A</option>
-                          <option value="B">B</option>
-                          <option value="C">C</option>
-                          <option value="D">D</option>
-                          <option value="F">F</option>
-                          <option value="S">S</option>
-                          <option value="M">M</option>
-                          <option value="excluded">Exclude</option>
-                        </Input></td>
-
+                                  [subject.code]: e.target.value
+                                },
+                                dirty: true
+                              })
+                            }
+                          >
+                            <option value="O">O</option>
+                            <option value="E">E</option>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                            <option value="D">D</option>
+                            <option value="F">F</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="excluded">Exclude</option>
+                          </Input>
+                        </td>
                       </tr>
-                    ))
-                    }
-
+                    ))}
                   </tbody>
                 </Table>
-
               </div>
-
             ))}
             <Button onClick={this.calculate}>Calculate</Button>
           </Col>
@@ -99,9 +102,7 @@ export default class Calculator extends React.Component {
                 <CardTitle>GPA</CardTitle>
                 <CardBody>
                   <h2>CGPA {this.state.gpa.toFixed(2)}</h2>
-
                 </CardBody>
-
               </Card>
             )}
           </Col>
