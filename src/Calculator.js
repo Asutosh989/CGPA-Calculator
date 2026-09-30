@@ -27,7 +27,7 @@ export default class Calculator extends React.Component {
       }
     }
     this.setState({
-      gpa: calculateGpa(grades),
+      gpa: calculateGpa(grades, syllabus[uni].grades),
       dirty: false
     });
   };
