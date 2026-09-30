@@ -12,10 +12,10 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Navbar color="faded" light expand="md">
-            <NavbarBrand href="/">CGPA calculator</NavbarBrand>
+            <NavbarBrand href={process.env.PUBLIC_URL + "/"}>CGPA calculator</NavbarBrand>
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink className="nav-link" exact to="/">

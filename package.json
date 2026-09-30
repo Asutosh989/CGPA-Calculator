@@ -2,6 +2,7 @@
   "name": "cgpa_calculator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://asutosh989.github.io/CGPA-Calculator",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "react": "^16.2.0",

@@ -31,8 +31,6 @@ jobs:
       - run: npm ci
 
       - run: npm run build
-        env:
-          PUBLIC_URL: /CGPA-Calculator
 
       - uses: actions/configure-pages@v5
 
