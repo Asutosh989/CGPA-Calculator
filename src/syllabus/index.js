@@ -1,5 +1,7 @@
 import bput from './bput';
 
-export default {
+const syllabus = {
   bput
 };
+
+export default syllabus;
